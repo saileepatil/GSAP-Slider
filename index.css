@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Happy+Monkey&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Petrona:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Rose:wght@300..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Sirin+Stencil&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sirin Stencil", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+#container{
+position: absolute;
+left: 20%;
+top: 50%;
+transform: translate(0%, -50%);
+    width: 60%;
+    height: 80%;
+    /* background-color: chartreuse; */
+}
+.img-container{
+position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50px;
+
+}
+img{
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+}
+#one{
+    width: 0%;
+}
+
+.text{
+    position: absolute;
+    left: -15%;
+    bottom: 30%;
+     width: 800px;
+    height: 100px;
+    /* background-color: red; */
+    overflow: hidden;
+    z-index: 999;
+}
+
+.text h1{
+    top: 100px;
+    font-size: 5vw;
+     position: absolute;
+
+}
+
+.para{
+    position: absolute;
+    bottom: 15%;
+    left: -8%;
+    width: 600px;
+    height: 50px;
+    /* background-color: blue; */
+    overflow: hidden;
+    z-index: 999;
+}
+
+.para p{
+    top:50px ;
+    font-size: 1vw;
+    position: absolute;
+    font-weight: 200;
+    
+}
+/* .tag{
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    width: 40px;
+    height: 30px;
+    background-color: olive;
+    overflow: hidden;
+    z-index: 999;
+}
+.tag h1{
+    font-size: 1vw;
+    position: relative;
+}
+.tag i{
+    position: relative;
+
+} */
